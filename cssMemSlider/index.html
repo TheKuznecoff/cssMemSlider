@@ -1,50 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=1140">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
-	<title>cssMemSlider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="null.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>cssMemSlider</title>
 </head>
-
 <body>
-	<div class="slider">
-		<div class="container">
-			<input type="radio" id="btn-1" name="toggle" checked>
-			<input type="radio" id="btn-2" name="toggle">
-			<input type="radio" id="btn-3" name="toggle">
-			<input type="radio" id="btn-4" name="toggle">
-			<div class="slider-inner">
-				<div class="slider-slides">
-					<img src="img/1.jpg" alt="1">
-					<p>League of Legends</p>
-				</div>
-				<div class="slider-slides">
-					<img src="img/2.jpg" alt="2">
-					<p>Cyberpunk 2077</p>
-				</div>
-				<div class="slider-slides">
-					<img src="img/3.jpg" alt="3">
-					<p>TRON</p>
-				</div>
-				<div class="slider-slides">
-					<img src="img/4.jpg" alt="4">
-					<p>Cyberpunk 2077</p>
-				</div>
-			</div>
-			<div class="slider-controls">
-				<label for="btn-1"></label>
-				<label for="btn-2"></label>
-				<label for="btn-3"></label>
-				<label for="btn-4"></label>
-			</div>
-		</div>
-	</div>
+    <div class="slider">
+        <input type="radio" id="btn-1" name="toggle" checked>
+        <input type="radio" id="btn-2" name="toggle">
+        <input type="radio" id="btn-3" name="toggle">
+        <input type="radio" id="btn-4" name="toggle">
+        <div class="slider-inner">
+            <div class="slider-img">
+                <img class="slider-slide" src="img/1.jpg" alt="1">
+                <img class="slider-slide" src="img/2.jpg" alt="2">
+                <img class="slider-slide" src="img/3.jpg" alt="3">
+                <img class="slider-slide" src="img/4.jpg" alt="4">
+            </div>
+        </div>
+        <div class="slider-content">
+            <div class="slider-content__text">
+                <div class="text-slider">
+                    <div class="txt">League of Legends</div>
+                    <div class="txt">Cyberpunk 2077</div>
+                    <div class="txt">TRON</div>
+                    <div class="txt">Cyberpunk 2077</div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <label for="btn-1"></label>
+                <label for="btn-2"></label>
+                <label for="btn-3"></label>
+                <label for="btn-4"></label>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>
